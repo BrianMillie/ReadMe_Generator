@@ -2,10 +2,13 @@
 function generateMarkdown(data) {
   //define licence agreement on project
   let description = ""
+  let badge = ""
   if (data.license === "MIT") {
+    badge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
     description = "The MIT license gives users express permission to reuse code for any purpose, sometimes even if code is part of proprietary software"
 
   } else {
+    badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
     description = "The GNU General Public License is a free, copyleft license for software and other kinds of works. The licenses for most software and other practical works are designed to take away your freedom to share and change the works."
   }
 
@@ -13,7 +16,7 @@ function generateMarkdown(data) {
                                     
 ## Badge:  
 
-${data.license}
+${badge}
 
 ## Description
 
@@ -55,7 +58,7 @@ ${data.tests}
 
 Any questions about this project please reach out to ${data.email}
 
-Github link ${data.github_username}
+(https://github.com/${data.github_username})
 
 `;
 }
