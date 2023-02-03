@@ -1,12 +1,12 @@
-# Generate ReadME
+# ReadMe generator
                                     
 ## Badge:  
 
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-Auto generate a readME file using inquirer, file system,  promises and  node js
+To automate a readme markdown file through the terminal
 
 ## Table of Contents
 
@@ -22,11 +22,11 @@ Auto generate a readME file using inquirer, file system,  promises and  node js
 
 ## Installation
 
-installation of node required
+node js required
 
 ## Usage
 
-write node index.js in terminal to get going then answer the questions
+put node index.js in the terminal and hit enter to start then fill in the answers
 
 ## License
 
@@ -34,7 +34,7 @@ The MIT license gives users express permission to reuse code for any purpose, so
 
 ## Contributions
 
-this requires no contributions
+no contributions required
 
 ## Tests
 
@@ -44,5 +44,5 @@ testing complete
 
 Any questions about this project please reach out to shippdan72@gmail.com
 
-Github link brianmillie
+(https://github.com/brianmillie)
 
